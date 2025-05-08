@@ -46,6 +46,7 @@ footer {
    color: white;
    border-radius: 50px;
    padding: 20px 30px;
+   margin-top: 10%;
 }
 
 a:hover {
@@ -83,6 +84,9 @@ section {
    width: 50%;
    margin: auto;
 }
+main{
+   align-items: center;
+}
 
 footer,
 nav {
@@ -113,4 +117,17 @@ nav a {
    gap: 15px;
    justify-content: center;
    margin-bottom: 15px;
+ }
+
+ .presentation{
+   display: flex;
+   justify-content: center;
+ }
+
+ .present{
+   width: 50%;
+ }
+ p{
+   width: 70%;
+   padding-bottom: 10%;
  }
