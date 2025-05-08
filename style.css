@@ -1,0 +1,14 @@
+a {
+   color: black;
+ }
+ 
+ .important {
+   color: #a5b4fc;
+ }
+
+h1{
+   font-size: 3.5em;
+   color: #A5B4FC;
+   font-family: "Manrope", sans-serif;
+   font-optical-sizing: auto;
+}
