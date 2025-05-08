@@ -33,12 +33,18 @@ li {
    font-size: 1.1em;
    color: #f9f8ff;
 }
+
+header,
+footer {
+   background-color: white;
+   padding: 20px 50px;
+}
+
 .cta {
    background: linear-gradient(#8e86b5, #acaeed);
    color: white;
    border-radius: 50px;
    padding: 20px 30px;
-   margin-top: 10%;
 }
 
 a:hover {
@@ -48,6 +54,10 @@ a:hover {
 .cta:hover {
    background: linear-gradient(#696484, #8788ba);
    text-decoration: none;
+}
+
+.lien-icone {
+   margin-left: 30px;
 }
 
 .lien-icone:hover {
@@ -77,8 +87,16 @@ section {
    margin: auto;
 }
 
-main {
+footer,
+nav {
+   display: flex;
+   flex-direction: row;
    align-items: center;
+   justify-content: space-between;
+}
+
+nav a {
+   margin-left: 30px;
 }
 
 .accueil-photos {
@@ -100,26 +118,40 @@ main {
    margin-bottom: 15px;
 }
 
-.presentation {
+.accueil-introduction {
    display: flex;
-   justify-content: center;
-}
-
-.present {
+   flex-direction: row;
    width: 50%;
+   align-items: center;
+   margin: auto;
 }
 
-p {
-   width: 70%;
-   padding-bottom: 10%;
-}
-
-header,footer{
+.portfolio-section-photos {
    background-color: white;
-   display: flex;
-   justify-content: space-between;
-   padding: 20px;
 }
-.list_link{
-   
+
+.portfolio-section-photos h2 {
+   color: #242424;
+   margin-bottom: 80px;
+}
+
+.grid-paysages {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 300px 300px 300px;
+   gap: 15px;
+}
+
+.grid-portraits {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 300px 300px;
+   gap: 15px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 }
